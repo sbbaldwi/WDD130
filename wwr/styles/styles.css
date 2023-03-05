@@ -9,7 +9,7 @@
 nav a{
     text-align: center;
     text-decoration: none;
-    color:#03045e;
+    color:white;
     padding: 35px;
 }
 
@@ -45,7 +45,7 @@ body{
 
 }
 header{
-    background-color: #caf0f8;
+    background-color: #2E282A;
     font-family: 'Rowdies';
     display: grid;
     grid-template-columns: 150px auto;
