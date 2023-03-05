@@ -104,8 +104,8 @@ nav a:hover{
     padding-bottom: 15px;
 }
 footer{
-    background-color: darkblue;
-    color:pink;
+    background-color: #FFC914;
+    color:black;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -114,9 +114,9 @@ footer{
 }
 
 footer a{
-    background-color: darkblue;
+    background-color: #FFC914;
     text-decoration: none;
-    color:pink;
+    color:black;
 
 }
 footer a:hover{
