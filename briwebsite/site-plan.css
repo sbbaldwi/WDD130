@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: #979B8D;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Papyrus,fantasy;
-  --paragraph-font: Brush Script MT,cursive; 
+  --heading-font: "IM Fell French Canon SC";
+  --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #001011;  /* headlines on a white background */ 
@@ -35,16 +35,14 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
-  font-family: Brush Script MT,cursive; 
 }
 img {
   display: block;
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(Papyrus,fantasy);
-  color: var(#001011);
-  font-family: Papyrus,fantasy; 
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
 }
 h2 {
   text-align: center;
@@ -52,21 +50,21 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(#663F46);
+  background: var(--accent1-color);
 }
 header {
   padding: 1em;
   text-align: center;
-  color: var(white);
-  background-color: var(#979B8D);
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {
-  color: var(white);
+  color: var(--headline-color-on-color);
 }
 
 p {
-  font-family: var(Brush Script MT, cursive);
-  color: var(#001011);
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
   padding: 1em;
 }
 .colors {
@@ -76,7 +74,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #001011 ;
+  background-color: #999;
 }
 .colors td{
   width: 25%;
@@ -84,25 +82,26 @@ p {
 }
 
 .primary {
-  background-color: var(#001011);
+  background-color: var(--primary-color);
+  color: white;
 }
 .secondary {
-  background-color: var(#EFD0CA);
+  background-color: var(--secondary-color);
 }
 .accent1 {
-  background-color: var(#663F46);
+  background-color: var(--accent1-color);
 }
 .accent2{
-  background-color: var(#979B8D);
+  background-color: var(--accent2-color);
 }
 
 p.colored {
-  background-color: var(#979B8D);
-  color: var(white);
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
 }
 
 nav {
-  background-color: var(#663F46);
+  background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
