@@ -43,7 +43,7 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var('Roboto');
+  font-family: 'Nunito';
   color: var(#001011);
 }
 h2 {
@@ -57,7 +57,7 @@ hr {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
+  color: var(white);
   background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {
@@ -65,8 +65,8 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var("PT Serif");
-  color: var("Nunito");
+  font-family: 'PT Serif';
+  color: #001011;
   padding: 1em;
 }
 .colors {
