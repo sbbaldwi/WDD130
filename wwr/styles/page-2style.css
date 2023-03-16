@@ -9,12 +9,12 @@
 nav a{
     text-align: center;
     text-decoration: none;
-    color:#03045e;
+    color:#2E282A ;
     padding: 35px;
 }
 
 body{
-    background-color: cadetblue;
+    background-color: white;
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -24,23 +24,23 @@ body{
 h2{
     font-family: 'Roboto';
 }
-#faq{
+#rivers{
     margin:auto 30px
 }
 header{
-    background-color: #caf0f8;
+    background-color: #FFC914;
     font-family: 'Rowdies';
     display: grid;
     grid-template-columns: 150px auto;
 }
 nav a:hover{
-    background-color: aqua ;
+    background-color: white ;
     color:pink;
 }
 
 
 footer{
-    background-color: darkblue;
+    background-color: #2E282A;
     color:pink;
     padding: 25px 50px;
     margin-top: 200px;
@@ -50,13 +50,13 @@ footer{
 }
 
 footer a{
-    background-color: darkblue;
+    
     text-decoration: none;
     color:pink;
 
 }
 footer a:hover{
-    background-color: aqua;
+    background-color: #FFC914;
     color: white;
     
 }
@@ -82,8 +82,8 @@ nav{
 .logo{
     width: 80px;
 }
-#banner-img{
-    width: 100%;
+#grand-canyon{
+    width: 160px;
 }
 
 @media screen and (max-width: 900px) {
