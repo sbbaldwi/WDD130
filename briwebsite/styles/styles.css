@@ -119,9 +119,16 @@ h1, h2, h3, h4, h5, h6 {
 .Book_Now{
     width: 400px;
     align-content: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
 footer{
     background-color: #663F46;
+    grid-column: 1/3;
+
+}
+footer{
+    flex-direction: column;
 }
 footer a, footer p{
     color: white;
