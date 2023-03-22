@@ -26,9 +26,10 @@
 
 #content{
     display: grid;
+    display: inline;
     max-width: 1600px;
     margin: 0 auto;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
@@ -110,16 +111,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .My_Work {
-    width: 300px;
-    height: 300px;
-    grid-column: 1/2;
+    width: 400px;
+    height: 400px;
+    grid-column: 2;
     grid-row: 3/4;
-    align-content: center;
 }
+
 .Book_Now{
     width: 400px;
-    align-content: center;
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 3/4;
 }
 footer{
