@@ -75,21 +75,3 @@ footer a, footer p{
 
 
 
-.content{
-    
-    grid-column: 1/2;
-    grid-row: 1/2;
-
-}
-.content p{
-    background-color: lightsteelblue;
-    font-size: 3em;
-    
-}
-
-#img1{
-    width: 100px;
-    height: 100px;
-    
-
-}

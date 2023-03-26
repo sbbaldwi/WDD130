@@ -113,12 +113,16 @@ h1, h2, h3, h4, h5, h6 {
 .My_Work {
     width: 400px;
     height: 400px;
+}
+#work{
     grid-column: 2;
     grid-row: 3/4;
 }
 
 .Book_Now{
     width: 400px;
+}
+#book{
     grid-column: 2/3;
     grid-row: 3/4;
 }
