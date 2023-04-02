@@ -73,5 +73,20 @@ footer a, footer p{
     color: white;
 }
 
+.flexbox-container1{
+    text-align: center;
+}
 
+.flexbox-container2{
+    text-align: center;
 
+}
+.flexbox-container3{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+p{
+    font-size: 2em;
+}
