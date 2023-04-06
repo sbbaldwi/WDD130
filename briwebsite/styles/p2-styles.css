@@ -21,13 +21,7 @@
     --nav-hover-background-color: #001011 ;
   }
 
-#content{
-    display: grid;
-    max-width: 1600px;
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
+
 
 header {
     padding: 1em;
@@ -84,7 +78,7 @@ footer a, footer p{
 .flexbox-container3{
     text-align: center;
 }
-.content{
+#paragraph{
     text-align: center;
 }
 p{
