@@ -117,6 +117,8 @@ footer a, footer p{
 @media only screen and (max-width: 400px) {
     .welcome-text {
         width: auto;
+        height: 350px;
+        padding-bottom: 100px;
     }
 
     .nav-area {
@@ -128,6 +130,14 @@ footer a, footer p{
     br {
         width: 1000px;
     }
+    button{
+        padding-bottom: 50px !important;
+    }
+
+    footer p {
+        margin: 10px 30px;
+    }
+
 
 
   }

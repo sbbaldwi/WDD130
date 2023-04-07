@@ -253,5 +253,10 @@ form {
     }
     .Picture_of_me{
       float: left;
+      width: 100%;
+      margin-left: 0;
+      border-left: 0;
     }
+
+
   }

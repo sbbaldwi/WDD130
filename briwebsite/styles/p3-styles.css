@@ -141,4 +141,25 @@ form {
  #paragraph{
     text-align: center;
  }
+@media screen and (max-width: 400px) {
+
+form{
+  width: auto;
+}
+input#name{
+  width: auto;
+}
+input#mail {
+  width: auto;
+}
+textarea#msg{
+  width: auto;
+}
+#prices {
+  width: 300px;
+}
+
+}
+  
+
 
