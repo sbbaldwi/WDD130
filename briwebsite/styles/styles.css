@@ -9,7 +9,7 @@
     margin: auto;
 }
 header{
-    background: url(/briwebsite/styles/homeimages/manicure.jpg);
+    background: url(homeimages/manicure.jpg);
     background-size: cover;
 }
 .nav-area{
